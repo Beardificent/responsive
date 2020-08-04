@@ -5,14 +5,21 @@ body {
 @media only screen and (max-width: 300px) {
     body {
         background-color: darkred;
-        font-size: 10px
+    }
+
+    body {
+        font-size: 15px
     }
 }
     @media only screen and (min-width: 300px) and (max-width: 768px) {
         body {
             background-color: darkgreen;
-            font-size: 15px
         }
+
+        body {
+            font-size: 25px
+        }
+
         #small{
             width: 66%;
 
@@ -26,8 +33,12 @@ body {
     @media only screen and (min-width: 768px) {
     body {
         background-color: darkblue;
-        font-size: 20px
     }
+
+        body {
+            font-size: 50px
+        }
+
         .sizes{
             width: 100%;
             overflow: hidden;
