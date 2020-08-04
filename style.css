@@ -5,49 +5,45 @@ body {
 @media only screen and (max-width: 300px) {
     body {
         background-color: darkred;
-    }
-}
-@media only screen and (max-width: 300px) {
-    #medium {
-        display: none;
-    }
-}
-@media only screen and (max-width: 300px) {
-    #large {
-        display: none;
+        font-size: 16px
     }
 }
     @media only screen and (min-width: 300px) and (max-width: 768px) {
         body {
             background-color: darkgreen;
+            font-size: 30px
         }
-}
-@media only screen and (min-width: 300px) and (max-width: 768px) {
-    #small {
-        display: none;
-    }
-}
+        #small{
+            width: 66%;
 
-@media only screen and (min-width: 300px) and (max-width: 768px) {
-    #large {
-        display: none;
-    }
+        }
+        #medium{
+            width: 33%;
+        }
+
 }
 
     @media only screen and (min-width: 768px) {
     body {
         background-color: darkblue;
+        font-size: 80px
     }
-}
+        .sizes{
+            width: 100%;
+            overflow: hidden;
+        }
 
-@media only screen and (min-width: 768px) {
-    #medium {
-        display: none;
-    }
-}
-@media only screen and (min-width: 768px) {
-    #small {
-        display: none;
-    }
-}
+        #small{
+            width: 33%;
+            float: left;
 
+        }
+        #medium{
+            width: 33%;
+            float: left;
+        }
+        #large{
+            width: 33%;
+            float: left;
+        }
+}
