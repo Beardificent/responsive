@@ -22,10 +22,12 @@ body {
 
         #small{
             width: 66%;
+            float: left;
 
         }
         #medium{
             width: 33%;
+            float: left;
         }
 
 }
