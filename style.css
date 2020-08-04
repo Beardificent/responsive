@@ -5,13 +5,13 @@ body {
 @media only screen and (max-width: 300px) {
     body {
         background-color: darkred;
-        font-size: 16px
+        font-size: 10px
     }
 }
     @media only screen and (min-width: 300px) and (max-width: 768px) {
         body {
             background-color: darkgreen;
-            font-size: 30px
+            font-size: 15px
         }
         #small{
             width: 66%;
@@ -26,7 +26,7 @@ body {
     @media only screen and (min-width: 768px) {
     body {
         background-color: darkblue;
-        font-size: 80px
+        font-size: 30px
     }
         .sizes{
             width: 100%;
