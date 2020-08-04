@@ -1,1 +1,1 @@
-# responsive
+https://beardificent.github.io/responsive/
